@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <main>
+        <section>
+            <form>
+                <select id="country">
+                    <option value="">Selecionar</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Canada">Canada</option>
+                </select>
+                <div>
+                    <table id="table"></table>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        
+        <span id="lastCountry"></span>
+        <span id="lastData"></span>
+    </footer>
+    <script src="{{asset('javascript/script.js')}}"></script>
+
+   
+{% endblock %}
+
