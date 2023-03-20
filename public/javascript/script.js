@@ -6,7 +6,7 @@ const selectCountry = country.addEventListener("change", async function () {
     let url = `/api/save/${country}`
     let lastResult = '/api/last-access'
 
-
+    
     //aplicando API para chamar como objeto
 
     let result = await fetch(url)
@@ -21,15 +21,17 @@ const selectCountry = country.addEventListener("change", async function () {
     let covid = Object.keys(data).map(function () {})
 
     //chamando a aplicação na tela e criando tabela
+   
+   
 
     function load() {
-
+     
         const lastCountry = document.getElementById('lastCountry')
         const lastData = document.getElementById('lastData')
-
-        lastCountry.innerHTML = dataAccess.country
+    
+        lastCountry.innerHTML = dataAccess.country + " - " 
         lastData.innerHTML = dataAccess.date
-
+      
         // Criando a tabela no HTML
         const table = document.getElementById('table');
         table.innerText = ''
