@@ -1,4 +1,4 @@
-# teste-kidopi
+# Teste-Kidopi
 
 ## Tecnologias Usadas:
 
@@ -14,5 +14,13 @@
 :heavy_check_mark:Symfony 6,
 
 :heavy_check_mark:MYSQL
+
+## Para a configuração do banco de dados:
+
+```
+- Configurar apartir do migration a porta da maquina local
+
+```
+
 
 
