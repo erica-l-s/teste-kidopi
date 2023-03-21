@@ -11,7 +11,7 @@
 
 :heavy_check_mark:PHP,
 
-:heavy_check_mark:Symfony 5,
+:heavy_check_mark:Symfony 6,
 
 :heavy_check_mark:MYSQL
 
